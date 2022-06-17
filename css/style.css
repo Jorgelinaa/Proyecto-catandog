@@ -29,7 +29,7 @@ header {
   background-image: url("../img/istockphoto-894194700-170667a.jpeg");
   background-color: white;
   border: solid 8px rgb(0, 0, 0);
-  font-family:Verdana,Tahoma,
+  font-family: Verdana, Tahoma;
 }
 
 body {
@@ -45,8 +45,7 @@ main {
   grid-area: main;
 }
 
-
-.conteiner-productos{
+.conteiner-productos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -287,7 +286,6 @@ li:hover .sub-menu {
   width: 15rem;
   height: 3rem;
 }
-
 
 .nav-end {
   display: flex;
