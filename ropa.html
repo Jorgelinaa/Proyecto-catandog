@@ -9,39 +9,51 @@
     <script src="https://kit.fontawesome.com/5ce2bac07e.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon"
         href="https://us.123rf.com/450wm/glopphy/glopphy1605/glopphy160500005/57119373-s%C3%ADmbolo-de-la-imagen-forma-vectorial-del-gato-y-del-perro-del-coraz%C3%B3n.jpg?ver=6">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Ropa</title>
+
 </head>
 
 <body>
     <header>
-        <!-- Etiquetas en bloque -->
-        <div class="caja-Header">
-            <a class="logo-letra" href="./index.html">CatandDog</a>
-            <img class="perrosygatos-logo" src="img/59802212-perro-y-gato-.webp" alt="perrosygatos">
-        </div>
         <!-- MENÚ DE NAVEGACIÓN -->
-        <nav>
-            <!-- UNORDERED LIST: LISTA NO ORDENADA -->
-            <ul>
-                <!-- LIST ITEMS -->
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="./ropa.html">Ropa</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand logo-letra" href="index.html">CatandDog</a>
+                <img class="perrosygatos-logo" src="./img/59802212-perro-y-gato-.webp" alt="perrosygatos">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./ropa.html">Ropa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+
+
+
     </header>
     <main class="menu">
         <h1 class="subtitulo subtitulo-ropa-letra">Indumentaria para perros y gatos</h1>
@@ -49,68 +61,62 @@
 
         <div class="container-ropa">
 
-            <div class="articulo-ropa">
+            <div class="articulo-ropa ">
                 <img src="https://i.pinimg.com/474x/36/d5/3f/36d53f6d3d42e2ef168870a3e3045edd.jpg" alt="buzo">
+                <button type="button" class="btn btn-outline-dark btn-ropa">Comprar</button>
                 <p class="articulo-caja_perro parrafo">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta. <br><br>
-                    Lorem ipsum,<br> sit amet consectetur adipisicing elit., Tenetur quis delectus doloremque, provident
-                    error
-                    deleniti.
+                    Campera de abrigo con capucha.<br> Precio:$4.000
                 </p>
             </div>
 
             <div class="articulo-ropa">
                 <img src="https://www.miperroyyo.com.ar/wp-content/uploads/2018/05/31841641_2070125459979530_5846337374832820224_n.jpg"
                     alt="swater">
-                <p class="articulo-caja_perro parrafo">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta. <br><br>
-                    Lorem ipsum,<br> sit amet consectetur adipisicing elit., Tenetur quis delectus doloremque, provident
-                    error
-                    deleniti.
+                <button type="button" class="btn btn-outline-dark btn-ropa">Comprar</button>
+                <p class="articulo-caja_perro parrafo">Buzo con capucha.
+                    con corderito por dentro.
+                    <br> Precio:$2500
                 </p>
             </div>
 
             <div class="articulo-ropa">
                 <img src="https://www.miperroyyo.com.ar/wp-content/uploads/2018/05/30697753_2058493244476085_9065108204303679488_n.jpg"
                     alt="buzo">
+                <button type="button" class="btn btn-outline-dark btn-ropa">Comprar</button>
                 <p class="articulo-caja_perro parrafo">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta. <br><br>
-                    Lorem ipsum,<br> sit amet consectetur adipisicing elit., Tenetur quis delectus doloremque, provident
-                    error
-                    deleniti.
+                    Campera con capucha,
+                    bolsillo con cierre.
+                    <br> Precio:$1500
                 </p>
             </div>
 
             <div class="articulo-ropa">
                 <img src="https://st.depositphotos.com/1806346/2040/i/450/depositphotos_20405629-stock-photo-cat-wearing-coat.jpg"
                     alt="buzodegato">
+                <button type="button" class="btn btn-outline-dark btn-ropa">Comprar</button>
                 <p class="articulo-caja_perro parrafo">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta. <br><br>
-                    Lorem ipsum,<br> sit amet consectetur adipisicing elit., Tenetur quis delectus doloremque, provident
-                    error
-                    deleniti.
+                    Campera con capucha, polar por dentro <br>Precio:$2.500
                 </p>
             </div>
 
             <div class="articulo-ropa">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2cLDDXF2oO5Ln9L8ZbUF8Wxe9JsNHTNx-1Q&usqp=CAU"
                     alt="buzodelanagato">
+                <button type="button" class="btn btn-outline-dark btn-ropa">Comprar</button>
+
                 <p class="articulo-caja_perro parrafo">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta. <br><br>
-                    Lorem ipsum,<br> sit amet consectetur adipisicing elit., Tenetur quis delectus doloremque, provident
-                    error
-                    deleniti.
+                    Sweater de lana.<br> Precio:$1200
                 </p>
             </div>
 
             <div class="articulo-ropa">
                 <img src="https://i.linio.com/p/dc34c6007c5ac484a77c798eadd2a937-product.jpg" alt="buzorosa">
+                <button type="button" class="btn btn-outline-dark btn-ropa">Comprar</button>
+
                 <p class="articulo-caja_perro parrafo">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta. <br><br>
-                    Lorem ipsum,<br> sit amet consectetur adipisicing elit., Tenetur quis delectus doloremque, provident
-                    error
-                    deleniti.
+                    Sweater tejido, con doble cuello <br>Precio:$4.000
                 </p>
+
             </div>
 
         </div>
@@ -124,6 +130,10 @@
             <li><a href="https://twitter.com" target="_blanck">Twitter <i class="fa-brands fa-twitter"></i></a></li>
         </ul>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
