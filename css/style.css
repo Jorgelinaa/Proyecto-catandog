@@ -257,23 +257,6 @@ input[type="reset"]:hover {
   transition: 3s;
 }
 
-/* ----------MENU DESPLEGABLE-------- */
-
-.sub-menu {
-  position: absolute;
-  visibility: hidden;
-  display: flex;
-  justify-content: center;
-}
-
-.sub-menu li a {
-  display: block;
-  text-decoration: none;
-}
-
-li:hover .sub-menu {
-  visibility: visible;
-}
 
 .btn-ropa {
   width: 450px;
