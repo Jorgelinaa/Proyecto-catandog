@@ -115,24 +115,7 @@ main {
   color: black;
 }
 
-.caja-main {
-  background-color: white;
-  padding: 10px;
-  margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-.main-descripcion_foto {
-  padding: 2px;
-  background-color: white;
-  margin: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 .main_contacto {
   background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2);
