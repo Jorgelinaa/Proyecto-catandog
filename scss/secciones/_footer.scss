@@ -1,0 +1,31 @@
+footer {
+    grid-area: footer;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* ----------GRADIENTES-------- */
+    background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2);
+  
+    ul li a {
+      color: black;
+    }
+  
+    i {
+      font-size: 1.5rem;
+  
+      &:hover {
+        color: #550c0c;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  
+  li {
+    margin: 20px;
+    list-style: none; }

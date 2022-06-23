@@ -1,110 +1,42 @@
-* {
-  margin: o;
-  padding: o;
-  font-size: 100%;
-}
+/* -------IMAGEN----- */
+img {
+  width: 300px;
+  margin: 10px;
+  height: 400px; }
+
+/*------FUENTES------*/
 h1 {
-  color: rgb(12, 8, 11);
+  color: #0c080b;
   margin: 2px;
-  padding: 20px;
-}
+  padding: 20px; }
 
 a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
-}
-
-a:hover {
-  color: rgb(85, 12, 12);
-  font-weight: 900;
-}
+  font-size: 20px; }
+  a:hover {
+    color: #550c0c;
+    font-weight: 900; }
 
 p {
-  color: floralwhite;
-}
-
-header {
-  grid-area: header;
-  background-image: url("../img/istockphoto-894194700-170667a.jpeg");
-  background-color: white;
-  border: solid 8px rgb(0, 0, 0);
-  font-family: Verdana, Tahoma;
-}
+  color: floralwhite; }
 
 body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer";
-}
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
 
 main {
-  grid-area: main;
-}
+  grid-area: main; }
 
-.conteiner-productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.container-ropa {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.articulo-ropa {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.articulo-ropa {
-  margin: 10px;
-}
-
-.logo-letra {
-  color: black;
-  font-size: 30px;
-  margin: 30px;
-}
-
-.perrosygatos-logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  /* ----ROTACION ----- */
-  transform: rotate(360deg);
-  transition: 3.5s;
-}
-
-.caja-Header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.articulo-caja_perro {
-  background-color: #ffeef2;
-}
+.img-main:hover {
+  filter: blur(5px);
+  transition: 0.3s;
+  filter: brightness(50%); }
 
 .subtitulo {
   font-size: 33px;
-  margin: 30px;
-}
-
-.caja-subtitulo {
-  text-align: center;
-}
-
-.subtitulo-ropa-letra {
-  color: black;
-}
+  margin: 30px; }
 
 .parrafo {
   font-size: 18px;
@@ -112,60 +44,82 @@ main {
   border-radius: 30px;
   margin: 1rem;
   width: 380px;
-  color: black;
-}
+  color: black; }
 
-
+.caja-subtitulo {
+  text-align: center; }
 
 .main_contacto {
-  background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2);
-}
+  background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2); }
 
-/* -------IMAGEN----- */
-img {
-  width: 300px;
-  margin: 10px;
-  height: 400px;
-}
-
-/* ---- CONTACTO----- */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 25vh; }
 
 .formulario {
   color: black;
-}
-
-/* --------MAIN PRODUCTOS------ */
-.productos {
-  display: flex;
-  border: solid 2px black;
-}
-
-.nosotros {
-  color: black;
-}
-
-.img-nosotros {
   display: flex;
   justify-content: center;
-}
+  align-items: center; }
 
-.imagen-perro_lentes {
+.formulario-ingrese-sus-datos {
+  font-size: 30px;
+  color: black; }
+
+.formulario-input {
+  height: 2.5rem;
   width: 350px;
-  height: 250px;
-}
+  border-radius: 15px;
+  background-color: #ffeef2;
+  text-align: center; }
 
-ul {
+.formulario-input-enviar-borrar {
+  height: 2.5rem;
+  width: 350px;
+  border-radius: 15px;
+  background-color: #de56f028;
+  text-align: center; }
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #ffeef270;
+  color: black;
+  color: #550c0c;
+  font-weight: 900;
+  /* ---TRANSFORMACIONES DE BOTONES---- */
+  transform: scale(1.1);
+  transition: 3s; }
+
+header {
+  grid-area: header;
+  background-image: url("../img/istockphoto-894194700-170667a.jpeg");
+  background-color: white;
+  border: solid 8px black;
+  font-family: Verdana, Tahoma; }
+
+.nav-end {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+  flex-basis: auto;
+  justify-content: flex-end; }
 
-li {
-  margin: 20px;
-  list-style: none;
-}
+.caja-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
-/* ----------FOOTER ----------- */
+.perrosygatos-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  /* ----ROTACION ----- */
+  transform: rotate(360deg);
+  transition: 3.5s; }
+
+.logo-letra {
+  color: black;
+  font-size: 30px;
+  margin: 30px; }
 
 footer {
   grid-area: footer;
@@ -174,110 +128,83 @@ footer {
   justify-content: center;
   align-items: center;
   /* ----------GRADIENTES-------- */
-  background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2);
-}
+  background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2); }
+  footer ul li a {
+    color: black; }
+  footer i {
+    font-size: 1.5rem; }
+    footer i:hover {
+      color: #550c0c; }
 
-footer ul li a {
-  color: black;
-}
-
-footer i {
-  font-size: 1.5rem;
-}
-
-footer i:hover {
-  color: #550c0c;
-}
-
-/* grilla base */
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 25vh;
-}
-
-.formulario {
+ul {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  flex-wrap: wrap; }
 
-.formulario-ingrese-sus-datos {
-  font-size: 30px;
-  color: black;
-}
+li {
+  margin: 20px;
+  list-style: none; }
 
-.formulario-input {
-  height: 2.5rem;
-  width: 350px;
-  border-radius: 15px;
-  background-color: #ffeef2;
-  text-align: center;
-}
+.nosotros {
+  color: black; }
 
-.formulario-input-enviar-borrar {
-  height: 2.5rem;
-  width: 350px;
-  border-radius: 15px;
-  background-color: #de56f028;
-  text-align: center;
-}
+.img-nosotros {
+  display: flex;
+  justify-content: center; }
 
-.imagen-index {
-  width: 300px;
-}
+.imagen-perro_lentes {
+  width: 50vw;
+  height: 50vh; }
 
-input[type="submit"]:hover,
-input[type="reset"]:hover {
-  background-color: #ffeef270;
-  color: black;
-  color: #550c0c;
-  font-weight: 900;
-  /* ---TRANSFORMACIONES DE BOTONES---- */
-  transform: scale(1.1);
-  transition: 3s;
-}
+.conteiner-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
 
-
-.btn-ropa {
-  width: 450px;
-}
+.productos {
+  display: flex;
+  border: solid 2px black; }
 
 .btn-productos:hover {
   background-color: black;
-
   color: white;
-  width: 15rem;
-  height: 3rem;
-}
+  width: 15rem; }
 
-.nav-end {
+.card {
+  margin: 1rem;
+  width: 40rem; }
+
+.card-text {
+  color: black; }
+
+.btn-ropa {
+  width: 450px; }
+
+.subtitulo-ropa-letra {
+  color: black; }
+
+.container-ropa {
   display: flex;
-  flex-basis: auto;
-  justify-content: flex-end;
-}
+  flex-wrap: wrap;
+  justify-content: center; }
 
-/* --- fotos del main */
-.img-main:hover {
-  filter: blur(5px);
-  transition: 0.3s;
-  filter: brightness(50%);
-}
+.articulo-ropa {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
 
-/* RESPONSIVE - MEDIA QUERY - MOBILE FIRST */
+.articulo-caja_perro {
+  background-color: #ffeef2; }
 
 @media (min-width: 768px) {
   img {
     width: 400px;
-    height: 500px;
-  }
-}
+    height: 500px; } }
+
 @media (min-width: 1024px) {
   img {
     width: 450px;
     margin: 20px;
-    height: 500px;
-  }
-}
+    height: 500px; } }

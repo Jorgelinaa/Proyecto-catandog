@@ -1,0 +1,33 @@
+header {
+  grid-area: header;
+  background-image: url("../img/istockphoto-894194700-170667a.jpeg");
+  background-color: white;
+  border: solid 8px rgb(0, 0, 0);
+  font-family: Verdana, Tahoma;
+}
+
+
+.nav-end {
+  display: flex;
+  flex-basis: auto;
+  justify-content: flex-end;
+}
+
+.caja-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+
+.perrosygatos-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  /* ----ROTACION ----- */
+  transform: rotate(360deg);
+  transition: 3.5s; }
+
+  .logo-letra {
+    color: black;
+    font-size: 30px;
+    margin: 30px; }

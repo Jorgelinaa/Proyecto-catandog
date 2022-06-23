@@ -1,0 +1,52 @@
+.main_contacto {
+  background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 25vh;
+}
+
+.formulario {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario-ingrese-sus-datos {
+  font-size: 30px;
+  color: black;
+}
+
+.formulario-input {
+  height: 2.5rem;
+  width: 350px;
+  border-radius: 15px;
+  background-color: #ffeef2;
+  text-align: center;
+}
+
+.formulario-input-enviar-borrar {
+  height: 2.5rem;
+  width: 350px;
+  border-radius: 15px;
+  background-color: #de56f028;
+  text-align: center;
+  }
+
+
+  input {
+    &[type="submit"]:hover, &[type="reset"]:hover {
+      background-color: #ffeef270;
+      color: black;
+      color: #550c0c;
+      font-weight: 900;
+  
+      /* ---TRANSFORMACIONES DE BOTONES---- */
+      transform: scale(1.1);
+      transition: 3s;
+    }
+  }

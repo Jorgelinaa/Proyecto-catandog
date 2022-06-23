@@ -1,0 +1,25 @@
+
+.conteiner-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  
+
+.productos {
+    display: flex;
+    border: solid 2px black; }
+  
+    
+.btn-productos:hover {
+        background-color: black;
+        color: white;
+        width: 15rem;
+      }
+      
+      .card {
+        margin: 1rem;
+        width: 40rem;
+      }
+      .card-text {
+        color: black;
+      }

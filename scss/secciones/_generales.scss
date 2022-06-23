@@ -1,0 +1,32 @@
+
+/* -------IMAGEN----- */
+img {
+  width: 300px;
+  margin: 10px;
+  height: 400px;
+}
+
+/*------FUENTES------*/
+h1 {
+  color: rgb(12, 8, 11);
+  margin: 2px;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+
+  &:hover {
+    color: #550c0c;
+    font-weight: 900;
+  }
+}
+
+p {
+  color: floralwhite;
+}
+
+
+
