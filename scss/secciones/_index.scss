@@ -22,6 +22,7 @@ main {
 .subtitulo {
   font-size: 33px;
   margin: 30px;
+  font-family:georgia;
 }
 
 .parrafo {
@@ -36,3 +37,24 @@ main {
 .caja-subtitulo {
   text-align: center;
 }
+
+$subtitulo:true;
+
+h1{
+  
+  @if($subtitulo) 
+  {font-family:georgia;}
+  
+  @else {
+    color:yellow;
+    }   
+  }
+
+  .boton-volver{
+    margin: 1rem;
+  }
+
+  .enlace-volver:hover{
+    color: white;
+  }
+

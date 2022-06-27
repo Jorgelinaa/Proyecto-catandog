@@ -1,4 +1,11 @@
 
+
+@import'./variables/colores';
+@import'./variables/tipografia';
+@import'./variables/extend';
+@import'./variables/mixins';
+
+
 @import'./secciones/generales';
 @import './secciones/index';
 @import'./secciones/contacto';
@@ -8,6 +15,7 @@
 @import'./secciones/productos';
 @import'./secciones/ropa';
 @import'./secciones/mediaquery';
+
 
 
 

@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+.card p {
+  color: black;
+  font-family: "Merriweather", serif; }
+
 /* -------IMAGEN----- */
 img {
   width: 300px;
@@ -19,7 +24,12 @@ a {
     font-weight: 900; }
 
 p {
-  color: floralwhite; }
+  text-align: center; }
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Merriweather", serif; }
 
 body {
   display: grid;
@@ -36,7 +46,8 @@ main {
 
 .subtitulo {
   font-size: 33px;
-  margin: 30px; }
+  margin: 30px;
+  font-family: georgia; }
 
 .parrafo {
   font-size: 18px;
@@ -48,6 +59,15 @@ main {
 
 .caja-subtitulo {
   text-align: center; }
+
+h1 {
+  font-family: georgia; }
+
+.boton-volver {
+  margin: 1rem; }
+
+.enlace-volver:hover {
+  color: white; }
 
 .main_contacto {
   background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2); }
@@ -93,9 +113,8 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
 header {
   grid-area: header;
-  background-image: url("../img/istockphoto-894194700-170667a.jpeg");
-  background-color: white;
-  border: solid 8px black;
+  background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2);
+  border: solid 2px black;
   font-family: Verdana, Tahoma; }
 
 .nav-end {
@@ -146,7 +165,8 @@ li {
   list-style: none; }
 
 .nosotros {
-  color: black; }
+  color: black;
+  font-family: "Merriweather", serif; }
 
 .img-nosotros {
   display: flex;
@@ -173,9 +193,6 @@ li {
 .card {
   margin: 1rem;
   width: 40rem; }
-
-.card-text {
-  color: black; }
 
 .btn-ropa {
   width: 450px; }
