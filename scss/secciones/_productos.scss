@@ -13,7 +13,6 @@
 .btn-productos:hover {
         background-color: black;
         color: white;
-        width: 15rem;
       }
       
       .card {
@@ -23,4 +22,3 @@
           @extend %estiloParrafo; 
         }
         }
-        
