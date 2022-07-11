@@ -200,7 +200,7 @@ li {
 
 .card {
   margin: 1rem;
-  width: 40rem; }
+  width: 34rem; }
 
 .btn-ropa {
   width: 450px; }
@@ -214,7 +214,8 @@ li {
   justify-content: center; }
 
 .articulo-ropa {
-  margin: 10px;
+  margin: 2px;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
