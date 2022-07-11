@@ -214,9 +214,8 @@ li {
   justify-content: center; }
 
 .articulo-ropa {
-  width: 30rem;
-  margin: 4px;
-  margin-bottom: 1rem;
+  width: 27rem;
+  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
