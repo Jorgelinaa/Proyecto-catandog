@@ -12,6 +12,9 @@ body{
 main {
   grid-area: main;
 }
+.carousel-gatos{
+  margin: 2rem;
+}
 
 .img-main:hover {
   filter: blur(5px);

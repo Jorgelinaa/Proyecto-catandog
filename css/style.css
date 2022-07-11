@@ -27,6 +27,7 @@ p {
   text-align: center; }
 
 h2 {
+  margin: 2rem;
   font-size: 30px;
   text-align: center;
   font-family: "Merriweather", serif; }
@@ -38,6 +39,9 @@ body {
 
 main {
   grid-area: main; }
+
+.carousel-gatos {
+  margin: 2rem; }
 
 .img-main:hover {
   filter: blur(5px);
@@ -114,7 +118,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 header {
   grid-area: header;
   background-image: linear-gradient(to left, #d0bdf62c, #d8f8e121, #ffeef2);
-  border: solid 2px black;
   font-family: Verdana, Tahoma; }
 
 .nav-end {
@@ -166,7 +169,9 @@ li {
 
 .nosotros {
   color: black;
-  font-family: "Merriweather", serif; }
+  font-family: "Merriweather", serif;
+  margin: 20px;
+  padding: 8px; }
 
 .img-nosotros {
   display: flex;
@@ -176,14 +181,18 @@ li {
   width: 50vw;
   height: 50vh; }
 
-.conteiner-productos {
+.texto-nosotros {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 8px; }
+
+.container-productos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-.productos {
-  display: flex;
-  border: solid 2px black; }
 
 .btn-productos:hover {
   background-color: black;
@@ -211,13 +220,12 @@ li {
   align-items: center;
   flex-direction: column; }
 
-.articulo-caja_perro {
-  background-color: #ffeef2; }
-
 @media (min-width: 768px) {
   img {
     width: 400px;
-    height: 500px; } }
+    height: 500px; }
+  .texto-nosotros {
+    flex-direction: row; } }
 
 @media (min-width: 1024px) {
   img {

@@ -1,6 +1,8 @@
 .nosotros {
     color: black; 
     font-family:$merriweather;
+    margin: 20px;
+    padding: 8px;
   }
   
   .img-nosotros {
@@ -10,5 +12,14 @@
 .imagen-perro_lentes {
   width: 50vw;
   height: 50vh;
+}
+
+.texto-nosotros{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 8px;
 }
 
